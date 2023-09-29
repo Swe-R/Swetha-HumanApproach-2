@@ -1,0 +1,29 @@
+class HelloWorld 
+{
+    public static void main(String[] args) 
+     {
+       
+        int n=12345;
+        int sum=0;
+        int remainder;
+        int quotient;
+        while(n>0)
+        {
+            remainder=n%10;
+            quotient=n/10;
+            sum=sum+remainder;
+            n=quotient;
+        }
+        System.out.println(sum);
+    }
+}
+
+
+Output:
+
+15
+
+
+
+
+
