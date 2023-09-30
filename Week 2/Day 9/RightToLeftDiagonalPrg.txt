@@ -1,0 +1,30 @@
+class HelloWorld
+ {
+    public static void main(String[] args) 
+      {
+        int a[][]=         {{3,6,0},
+		            {0,1,6},
+		            {3,5,9}};  
+		            
+        int i,j;
+        int n=a.length;
+		for(i=0;i<a.length;i++)
+		{
+		    for(j=0;j<a[0].length;j++)
+		    {
+		        if(i+j==a.length-1)
+		        {
+		            System.out.println(a[i][j]);
+		        }
+		    }
+		}
+
+    }
+}
+
+
+Output:
+
+0
+1
+3
