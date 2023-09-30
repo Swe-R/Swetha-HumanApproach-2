@@ -1,0 +1,30 @@
+class HelloWorld 
+{
+    public static void main(String[] args) 
+     {
+         int a[]={10,1,8,9,4,11,7};
+         int index=5;
+         int n=a.length;
+         int i;
+         for(i=index;i<n-1;i++) 
+          {
+	        a[index]=a[index+1]; 
+         }
+         n--;
+        for(i=0;i<n;i++)
+          {
+          	System.out.println(a[i]);
+          
+          }      
+    }
+}    
+
+
+Output:
+
+10
+1
+8
+9
+4
+7

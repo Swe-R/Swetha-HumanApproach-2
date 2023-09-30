@@ -1,0 +1,35 @@
+class HelloWorld 
+{
+    public static void main(String[] args) 
+     {
+         int a[]={10,1,8,9,4,7};
+         int index=5;
+         int n=a.length;
+         int i;
+         int k=11;
+         for(i=n-1;i>index ;i--) 
+          {
+            	a[i]=a[i-1];
+         } 
+
+         a[index]=k;
+
+        for(i=0;i<n;i++)
+          {
+          	System.out.println(a[i]);
+          
+          }      
+
+    }
+}  
+
+
+Output:
+
+10
+1
+8
+9
+4
+11
+  
